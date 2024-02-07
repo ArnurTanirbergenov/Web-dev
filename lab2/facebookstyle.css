@@ -1,0 +1,233 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:rgb(243, 243, 243);
+    color:black;
+    font-size:12px;
+}
+
+div{
+    display:block;
+}
+
+#globalcontent{
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+#content{
+    height: 496px;
+    margin:0 40px;
+    width:auto;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img.facebook-logo-img{
+    height: 108px;
+    margin:-28px;
+    padding:112px 0 16px;
+    padding-bottom: 0;
+    border:0;
+}
+
+#logo-text{
+    margin: 40px;
+    box-sizing: border-box;
+    flex-shrink:1;
+}
+
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+
+.blocks{
+    margin:40px;   
+    flex-basis:400px; 
+    height: 496px;
+    flex-grow:0;
+    flex-shrink:1;
+}
+#main-login{
+    background: white;
+    padding: 10px;
+    height: 350px;
+    width:380px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    text-align: center;
+    align-items: center;
+}
+
+.blocks-inside-login{
+    width: 330px;
+    padding:10px;
+    margin:10px;
+    background: black;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #email{
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+    text-align: start;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 31px;
+    vertical-align: middle;
+    color:grey;
+    display: flex;
+    justify-content: start;
+} */
+
+#email-input{
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    text-align: start;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 31px;
+    vertical-align: middle;
+    color:grey;
+    padding: 14px 16px;
+}
+
+
+.focus{
+    border: 1px solid #39c; /* Рамка при получении фокуса */
+    width: 80%;
+}
+
+input.text{
+    border: 1px solid #ccc; /* Исходная рамка вокруг поля */
+    width: 80%;
+}
+
+#password{
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    text-align: start;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 31px;
+    padding: 14px 16px;
+    vertical-align: middle;
+    color:grey;
+}
+#enter{
+    background-color: #1877f2;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    text-align: center;
+    height: 48px;
+    color:white;
+    font-weight: bold;
+}
+#enter-button{
+    background-color: #1877f2;
+    border: none;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    text-align: center;
+    height: 48px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+#forgot-password{
+    background: white;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 14px;
+    vertical-align: middle;
+    color: #1877f2;
+    text-align: center;
+    border-bottom: 1px solid #dddfe2;
+    height: 30px;
+}
+a{
+    color: #1877f2;
+    text-decoration: none;
+}
+#create-new-account{
+    width: 220px;
+    color:white;
+    border: 1px solid #dddfe2;
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 1px;
+    height: 48px;
+    color:white;
+    font-weight: bold;
+    
+}
+#create-account-button{
+    width: 220px;
+    color:white;
+    border:none;
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 1px;
+    height: 48px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+#create-account-container {
+    background: white;
+    width: 350px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+#info{
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#info-inside1{
+    background-color: red;
+    width: 1060px;
+    height: auto;
+}
+.blocks-inside-info{
+    height: auto;
+}
+#info-inside11{
+    background: white;
+    font-size: 13px;
+    border-bottom: 1px solid  #dddfe2;
+    height: auto;
+}
+
+#info-inside12{
+    background: white;
+    font-size: 13px;
+}

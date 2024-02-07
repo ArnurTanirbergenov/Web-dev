@@ -1,0 +1,48 @@
+#whole-page{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background-color: aqua;
+}
+
+#content{
+    height: 500px;
+    margin: 0 40px;
+    width: auto;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#insta-image{
+    width: 252px;
+    height:538px;
+    position: absolute;
+    margin-right: 67px;
+    margin-top: 17px;
+    border-radius: 7%;
+}
+#some-images{
+    padding: 10px;
+    background-size: 468.32px 634.15px;
+    margin-top: 30px;
+    height: 590px;
+    width: 466px;
+    background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+    display: flex;
+    justify-content: right;
+}
+#here-image{
+    align-self: right;
+}
+#here-login{
+    background: white;
+    padding: 10px;
+    margin-top: 30px;
+    height: 350px;
+    width:350px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    text-align: center;
+    align-items: center;
+}
