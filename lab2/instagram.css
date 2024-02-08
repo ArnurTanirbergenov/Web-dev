@@ -1,7 +1,12 @@
+
+body{
+
+}
+
 #whole-page{
     padding-bottom: 50px;
     padding-top: 100px;
-    background-color: aqua;
+    background-color: white;
 }
 
 #content{
@@ -9,7 +14,6 @@
     margin: 0 40px;
     width: auto;
     padding-bottom: 112px;
-    padding-top: 72px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -38,11 +42,163 @@
 #here-login{
     background: white;
     padding: 10px;
-    margin-top: 30px;
-    height: 350px;
+
+    height: 600px;
     width:350px;
-    border: 1px solid gray;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border:none;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1); */
     text-align: center;
-    align-items: center;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#instagram-logo-and-login{
+    height: 430px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid rgb(187, 187, 187);
+    border-radius: 1px;
+}
+#instagram-logo{
+    height:130px;
+    width: 330px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#instagram-in-letters{
+    width: 100px;
+
+}
+#login{
+    height: 300px;
+    width: 350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color:white;
+}
+
+#number{
+    width: 350px;
+    height: 50px;
+}
+
+#number-input{
+    width: 250px;
+    height: 35px;
+    font-size: 12px;
+    text-align: start;
+    border-radius: 1px;
+    border:1px solid rgb(187, 187, 187);
+}
+
+#password-input{
+    width: 250px;
+    height: 35px;
+    border-radius: 1px;
+    border:1px solid rgb(187, 187, 187);
+}
+
+#enter-button{
+    width: 250px;
+    height: 35px;
+    background-color: #569dfa;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 0 16px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#or{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+hr{
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top:1px solid rgb(187, 187, 187);
+    width: 70px;
+    
+}
+#enter-by-facebook{
+    margin-top:30px;
+    width: 350px;
+    height: 35px;
+    
+}
+#forgot-password{
+    width: 350px;
+    height: 35px;
+}
+a{
+    text-decoration: none;  
+    color: rgb(4, 4, 102);
+}
+
+#forgot-password a{
+    font-size: 14px;
+    color: #235ba5;
+}
+
+#dont-have-acc {
+    margin-top: 10px;
+    width: 350px;
+    height: 60px;
+    background: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    border:1px solid rgb(187, 187, 187);
+    border-radius: 1px;
+}
+#dont-have-acc p{
+    padding-top:5px;
+}
+
+#download-app{
+    width:350px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background: white;
+}
+
+#where-to-download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 350px;
+    height:40px;
+}
+
+a img{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+#info{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 100px;
 }
