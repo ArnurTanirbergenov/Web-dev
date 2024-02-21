@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(61, 85, 105);
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #baeeeb;
+    margin-top: 200px;
+    border-radius: 20px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 25px;
+}
+.todo-icon{
+    width: 40px;
+}
+
+.todo-app h2{
+    color: rgb(63, 58, 68);
+    display:flex;
+    align-items: center;
+    margin:10px;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(218, 216, 216);
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 100%;
+}
+input{
+    flex:1;
+    border: none;
+    outline:none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 13px;
+    font-size: 20px;
+
+}
+
+button{
+    border: none;
+    outline:none;
+    padding: 16px 50px;
+    background: rebeccapurple;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+ul{
+    width: 100%;
+}
+ul li{
+    width: 100%;
+    list-style: none;
+    font-size:17px;
+    padding:20px 20px 5px 50px; 
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+ul li::before{
+    content:'';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image:url(https://icons.veryicon.com/png/o/miscellaneous/come-along/unchecked-19.png);
+    background-position: center;
+    background-size: cover;
+    top:14px;
+    left:8px;
+}
+ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+
+}
+ul li.checked::before{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwF3tH2f-dqw4ly2P9CadXxV5-kwRSSswwA&usqp=CAU);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: red;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background-color: blue;
+
+}
